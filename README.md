@@ -27,3 +27,6 @@ http://vijaymrami.blogspot.com/2020/10/how-to-display-product-image-in-backend.h
 
 template override 
 https://www.mageplaza.com/devdocs/overriding-native-template-file-magento-2.html#new-method
+
+difference checker...
+https://www.diffchecker.com/diff
