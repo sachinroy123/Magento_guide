@@ -30,3 +30,6 @@ https://www.mageplaza.com/devdocs/overriding-native-template-file-magento-2.html
 
 difference checker...
 https://www.diffchecker.com/diff
+
+Search thoughout module ----
+grep -r "table-order-items shipment" vendor/magento/module-sales
