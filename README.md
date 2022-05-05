@@ -33,3 +33,10 @@ https://www.diffchecker.com/diff
 
 Search thoughout module ----
 grep -r "table-order-items shipment" vendor/magento/module-sales
+
+how to check class 
+
+                  <?php   
+                      print_r(get_class($block));
+                      die();
+                  ?>
