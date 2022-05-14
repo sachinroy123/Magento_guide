@@ -27,14 +27,7 @@ layout file ...
 item.phtml
 
 <?php
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
 
-// phpcs:disable Magento2.Templates.ThisInTemplate
-
-/** @var \Magento\Sales\Block\Order\Items $block */
 $helper = $block->getData('cysque_helper');
 
 ?>
