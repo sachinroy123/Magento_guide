@@ -40,3 +40,6 @@ how to check class
                       print_r(get_class($block));
                       die();
                   ?>
+
+---- SETUP MODULE TABLE ------
+setup_module // all the module store in this table...
