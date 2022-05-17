@@ -43,3 +43,13 @@ how to check class
 
 ---- SETUP MODULE TABLE ------
 setup_module // all the module store in this table...
+
+/**
+ * Cysque Software.
+ *
+ * @category  Cysque
+ * @package   Cysque_AdminLoginAsCustomer
+ * @author    Cysque Software
+ * @copyright Copyright © Cysque Software (https://cysque.com)
+ * @license   https://store.cysque.com/terms-conditions
+ */
