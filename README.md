@@ -60,6 +60,11 @@ setup_module // all the module store in this table...
  
 ../magento-coding-standard/vendor/bin/phpcs -n --standard=Magento2 app/code/Cysque/OrderItemImage/
 
+removing white space 
 ../magento-coding-standard/vendor/bin/phpcbf  --standard=Magento2 app/code/Cysque/OrderItemImage/
 
+permission 🚱
+sudo chmod -R 777 var/;
+sudo chmod -R 777 pub/;
+sudo chmod -R 777 generated/;
 
