@@ -53,3 +53,8 @@ setup_module // all the module store in this table...
  * @copyright Copyright © Cysque Software (https://cysque.com)
  * @license   https://store.cysque.com/terms-conditions
  */
+ 
+ ../magento-coding-standard/vendor/bin/phpcs --standard=Magento2 app/code/Cysque/OrderItemImage/
+../magento-coding-standard/vendor/bin/phpcs -n --standard=Magento2 app/code/Cysque/OrderItemImage/
+../magento-coding-standard/vendor/bin/phpcbf  --standard=Magento2 app/code/Cysque/OrderItemImage/
+
