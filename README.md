@@ -54,6 +54,8 @@ setup_module // all the module store in this table...
  * @license   https://store.cysque.com/terms-conditions
  */
  
+ show the errors and warning....
+ 
  ../magento-coding-standard/vendor/bin/phpcs --standard=Magento2 app/code/Cysque/OrderItemImage/
  
 ../magento-coding-standard/vendor/bin/phpcs -n --standard=Magento2 app/code/Cysque/OrderItemImage/
