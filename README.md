@@ -68,3 +68,39 @@ sudo chmod -R 777 var/;
 sudo chmod -R 777 pub/;
 sudo chmod -R 777 generated/;
 
+url media url , bse url.....
+
+https://www.amitbera.com/magento2-get-base-url-and-media-url-and-static-url/
+
+  /* @var \Magento\Store\Model\StoreManagerInterface
+     */
+    protected $_storeManager;
+ 
+    public function __construct(
+ 	......
+  
+        \Magento\Store\Model\StoreManagerInterface $storeManager
+        
+	 .......
+    ) {
+	 .....
+        $this->_storeManager = $storeManager;
+ 	.....
+    }
+ 
+    public function myStoreBaseUrls(){
+ 	$storeManager = $this->_storeManager;
+  
+ 	$statiContenteUrl = $storeManager->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_STATIC);
+  
+	$mediaUrl = $storeManager->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_MEDIA);
+  
+ 	$linkUrl = $storeManager->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_LINK);
+  
+ 	$baseUrlwithoutIndexPhp = $storeManager->getBaseUrl(\Magento\Framework\UrlInterface::URL_TYPE_WEB);
+  
+  	return $this->_storeManager->getStore()->getBaseUrl();
+     }
+    public function myStoreUrl(){
+ 	return $this->_storeManager->getStore()->getBaseUrl()
+    }
