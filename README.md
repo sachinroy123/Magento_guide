@@ -104,3 +104,8 @@ https://www.amitbera.com/magento2-get-base-url-and-media-url-and-static-url/
     public function myStoreUrl(){
  	return $this->_storeManager->getStore()->getBaseUrl()
     }
+
+------API ARTICLE-----
+
+
+https://developer.adobe.com/commerce/php/tutorials/backend/create-custom-rest-api/#step-2-create-custom-acl-entries
